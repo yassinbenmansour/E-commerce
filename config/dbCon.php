@@ -8,6 +8,6 @@
                 $access = new PDO("mysql:host=$host;dbname=$dbName;",$user,$pwd);
                 echo'succes';
 
-        }catch(Eception $e){
+        }catch(Exception $e){
                 echo 'Erreur : '.$e->getMessage();
         }
